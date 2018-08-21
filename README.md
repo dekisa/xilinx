@@ -12,3 +12,4 @@ Pinned \
 []()\
 ethernet: [1G/2.5G Ethernet PCS/PMA or SGMII v16.1 LogiCORE IP Product Guide](https://www.xilinx.com/support/documentation/ip_documentation/gig_ethernet_pcs_pma/v16_1/pg047-gig-eth-pcs-pma.pdf)\
 
+emmmc: [Trenz guide](https://wiki.trenz-electronic.de/display/TE0720/eMMC)\
