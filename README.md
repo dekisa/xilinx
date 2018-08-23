@@ -1,11 +1,13 @@
 # xilinx
 
 Documentation \
-[Starter Kit 720](https://wiki.trenz-electronic.de/display/PD/Starter+Kit+720) \
+[Trenz Starter Kit 720](https://wiki.trenz-electronic.de/display/PD/Starter+Kit+720) \
 [Petalinux Reference Guide](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2018_1/ug1144-petalinux-tools-reference-guide.pdf)\
+[PetaLinux ToolsDocumentation](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2018_1/ug1157-petalinux-tools-command-line-guide.pdf)\
 [Zynq-7000 SoC Technical Reference Manual](https://www.xilinx.com/support/documentation/user_guides/ug585-Zynq-7000-TRM.pdf#nameddest=xPSPLMIOEMIOSignalsAndInterfaces)\
 [UltraFast Embedded Design Methodology Guide](https://www.xilinx.com/support/documentation/sw_manuals/ug1046-ultrafast-design-methodology-guide.pdf):
 [Chapter 3: Hardware Design Considerations - Dataflow](https://www.xilinx.com/support/documentation/sw_manuals/ug1046-ultrafast-design-methodology-guide.pdf#G5.385115)\
+
 Tutorials\
 [Vivado Design Suite Tutorial Embedded Processor Hardware Design](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2018_1/ug940-vivado-tutorial-embedded-design.pdf)\
 [Zynq-7000 All Programmable SoC: Embedded Design Tutorial](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2018_1/ug1165-zynq-embedded-design-tutorial.pdf)\
