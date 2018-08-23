@@ -20,3 +20,10 @@ ethernet: [1G/2.5G Ethernet PCS/PMA or SGMII v16.1 LogiCORE IP Product Guide](ht
 
 emmmc: [Trenz guide](https://wiki.trenz-electronic.de/display/TE0720/eMMC)\
 [fpga common mistakes](http://class.ece.iastate.edu/cpre488/resources/ISU_488_common_mistakes.pdf)\
+
+notes:\
+Create a BOOT.BIN file for a Zynq family device that includes FIT image.
+```
+petalinux-package --boot --format BIN --u-boot --kernel -o ./BOOT.bin
+```
+
