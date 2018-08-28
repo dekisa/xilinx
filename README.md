@@ -27,3 +27,7 @@ Create a BOOT.BIN file for a Zynq family device that includes FIT image.
 petalinux-package --boot --format BIN --u-boot --kernel -o ./BOOT.bin
 ```
 
+Create a BOOT.BIN file for a Zynq family device that includes BIT file.
+```
+petalinux-package --boot --format BIN --fsbl $FSBL --fpga --u-boot -o $BOOTBIN 
+```
