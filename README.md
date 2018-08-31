@@ -6,7 +6,6 @@ Documentation \
 [UltraFast Embedded Design Methodology Guide](https://www.xilinx.com/support/documentation/sw_manuals/ug1046-ultrafast-design-methodology-guide.pdf):
 [Chapter 3: Hardware Design Considerations - Dataflow](https://www.xilinx.com/support/documentation/sw_manuals/ug1046-ultrafast-design-methodology-guide.pdf#G5.385115)\
 [AXI Stream FIFO](https://www.xilinx.com/support/documentation/ip_documentation/axi_fifo_mm_s/v4_1/pg080-axi-fifo-mm-s.pdf)\
-Tutorials\
 
 Guides \
 [Xilinx Wiki](http://www.wiki.xilinx.com/Technical%20Articles)\
