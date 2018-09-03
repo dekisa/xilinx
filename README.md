@@ -29,8 +29,8 @@ Pinned\
 ethernet: [1G/2.5G Ethernet PCS/PMA or SGMII v16.1 LogiCORE IP Product Guide](https://www.xilinx.com/support/documentation/ip_documentation/gig_ethernet_pcs_pma/v16_1/pg047-gig-eth-pcs-pma.pdf)\
 emmmc: [Trenz guide](https://wiki.trenz-electronic.de/display/TE0720/eMMC)\
 [fpga common mistakes](http://class.ece.iastate.edu/cpre488/resources/ISU_488_common_mistakes.pdf)\
-[FTN IP jezgro za enkripciju podataka sa AXI interfejsom](http://www.ftn.uns.ac.rs/n144778477/ip-jezgro-za-enkripciju-podataka-sa-axi-interfejsom)
-
+[FTN IP jezgro za enkripciju podataka sa AXI interfejsom](http://www.ftn.uns.ac.rs/n144778477/ip-jezgro-za-enkripciju-podataka-sa-axi-interfejsom)\
+https://opsero.com/products/ 
 notes:\
 Create a BOOT.BIN file for a Zynq family device that includes FIT image.
 ```
