@@ -12,9 +12,9 @@ Guides \
 [Vivado Design Suite Tutorial Embedded Processor Hardware Design](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2018_1/ug940-vivado-tutorial-embedded-design.pdf)\
 [Zynq-7000 All Programmable SoC: Embedded Design Tutorial](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2018_1/ug1165-zynq-embedded-design-tutorial.pdf)\
 [FPGAdeveloper Creating a custom AXI-Streaming IP in Vivado](http://www.fpgadeveloper.com/2017/11/creating-a-custom-axi-streaming-ip-in-vivado.html)\
-[Serial emulation over USB](http://www.wiki.xilinx.com/Zynq-7000+AP+SoC+USB+CDC+Device+Class+Design+Example+Techtip
-Petalinux)
+[Serial emulation over USB](http://www.wiki.xilinx.com/Zynq-7000+AP+SoC+USB+CDC+Device+Class+Design+Example+Techtip)
 
+Petalinux\
 [Petalinux Reference Guide](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2018_1/ug1144-petalinux-tools-reference-guide.pdf)\
 [PetaLinux Tools Documentation](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2018_1/ug1157-petalinux-tools-command-line-guide.pdf)
 
