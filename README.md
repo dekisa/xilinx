@@ -59,3 +59,14 @@ axidma driver\
 https://github.com/bperez77/xilinx_axidma/issues/24
 https://github.com/bperez77/xilinx_axidma
 
+udp\
+https://gist.github.com/cslarsen/11339448 \
+https://docs.python.org/2/howto/sockets.html \
+https://wiki.python.org/moin/UdpCommunication \
+https://www.cs.cmu.edu/afs/cs/academic/class/15213-f99/www/class26/udpclient.c \
+
+usb device \
+[TE7020 Schematic](https://www.trenz-electronic.de/fileadmin/docs/Trenz_Electronic/Modules_and_Module_Carriers/4x5/TE0720/REV03/Documents/SCH-TE0720-03-1CF.PDF)\
+[TE0703 Schematic](https://www.trenz-electronic.de/fileadmin/docs/Trenz_Electronic/Modules_and_Module_Carriers/4x5/4x5_Carriers/TE0703/REV05/Documents/SCH-TE0703-05.PDF)\
+[https://elinux.org/images/8/83/USB3320-datasheet.pdf](https://elinux.org/images/8/83/USB3320-datasheet.pdf)\
+[Zynq-7000 AP SoC USB CDC Device Class Design Example Techtip](http://www.wiki.xilinx.com/Zynq-7000+AP+SoC+USB+CDC+Device+Class+Design+Example+Techtip)
