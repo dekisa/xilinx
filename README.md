@@ -70,3 +70,8 @@ usb device \
 [TE0703 Schematic](https://www.trenz-electronic.de/fileadmin/docs/Trenz_Electronic/Modules_and_Module_Carriers/4x5/4x5_Carriers/TE0703/REV05/Documents/SCH-TE0703-05.PDF)\
 [https://elinux.org/images/8/83/USB3320-datasheet.pdf](https://elinux.org/images/8/83/USB3320-datasheet.pdf)\
 [Zynq-7000 AP SoC USB CDC Device Class Design Example Techtip](http://www.wiki.xilinx.com/Zynq-7000+AP+SoC+USB+CDC+Device+Class+Design+Example+Techtip)
+
+# Pinout - Clock capable pins\
+[Pin labels](https://www.xilinx.com/support/packagefiles/z7packages/xc7z020clg484pkg.txt) - P pins\
+[XC7Z020 device pinout (pg. 41)](https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=41) - MRCC, SRCC pins \
+[Trenz TE720 pinout table](https://github.com/dekisa/xilinx/blob/master/doc/pin%20mapping/te0720_te0703_fpga_pinout_table.pdf)
