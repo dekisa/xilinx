@@ -27,6 +27,20 @@ AXI\
 Source\
 [AXI Fifo Driver](https://github.com/torvalds/linux/blob/master/drivers/staging/axis-fifo/axis-fifo.c)
 
+Current probe\
+test_board project
+````
+/xilinx/bgw_current_probe_design
+````
+IP repo (adc reading and adc emulation)
+````
+~/xilinx/bgw_current_probe_design/ip_repo
+````
+TE FSBL (for USB device)
+````
+~/xilinx/test_board_stream/test_board/os/petalinux/zynq_fsbl_te.elf
+````
+
 Pinned\
 [Zynq-7000 SoC XADC](https://www.xilinx.com/support/documentation/user_guides/ug480_7Series_XADC.pdf)\
 [https://kb.ettus.com/X300/X310](https://kb.ettus.com/X300/X310)\
@@ -71,6 +85,40 @@ usb device \
 [https://elinux.org/images/8/83/USB3320-datasheet.pdf](https://elinux.org/images/8/83/USB3320-datasheet.pdf)\
 [Zynq-7000 AP SoC USB CDC Device Class Design Example Techtip](http://www.wiki.xilinx.com/Zynq-7000+AP+SoC+USB+CDC+Device+Class+Design+Example+Techtip)
 
+usb device sardware modifications:
+1) Remove USB type A J6
+2) Solder µUSB type B J12
+3) Remove CM choke L87 and solder it on L4
+4) Replace resistor R5 (size 0402) by 1K +/-5%  resistor
+5) Replace capacitor C27 (size 0805) with 1-6.5µF (>10V).
+6) Remove capacitor C5
+
+usb device software modifications (or skip steps 1-3 and flash precompiled binary zynq_fsbl_te.elf)
+1) Create first stage bootloader project from template in EDS
+2) Modify according to Trenz FSBL
+3) Complie and flash
+4) For linux drivers see [Zynq-7000 AP SoC USB CDC Device Class Design Example Techtip](http://www.wiki.xilinx.com/Zynq-7000+AP+SoC+USB+CDC+Device+Class+Design+Example+Techtip)
+5) Additional Peralinux device tree modification:
+/* USB PHY */
+```
+/{
+    usb_phy0: usb_phy@0 {
+        //compatible = "ulpi-phy";
+        compatible = "usb-nop-xceiv";
+        #phy-cells = <0>;
+        reg = <0xe0002000 0x1000>;
+        view-port = <0x0170>;
+        drv-vbus;
+    };
+};
+
+&usb0 {
+    //dr_mode = "host";
+    dr_mode = "peripheral";
+    //dr_mode = "otg";
+    usb-phy = <&usb_phy0>;
+};
+```
 # Pinout - Clock capable pins
 [Pin labels](https://www.xilinx.com/support/packagefiles/z7packages/xc7z020clg484pkg.txt) - P pins\
 [XC7Z020 device pinout (pg. 41)](https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=41) - MRCC, SRCC pins \
