@@ -8,9 +8,9 @@
 
 ##### Guides
 [Trenz TE0720 Test Board - Design Flow](https://wiki.trenz-electronic.de/display/PD/TE0720+Test+Board#TE0720TestBoard-DesignFlow) see steps 1,2,4,6\
-Open existing project
+Open existing project (sudo is required)
 ````
-sudo bash vivado_open_existing_project_guimode.sh 
+udo bash vivado_open_existing_project_guimode.sh 
 ````
 [Trenz Petalinux Kickstart](https://wiki.trenz-electronic.de/display/PD/PetaLinux+KICKstart#PetaLinuxKICKstart-CreatingaProjectfromVivadoProject) see steps 1,3,4,5,6 - for step 6 see:
 ````
