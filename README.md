@@ -1,12 +1,12 @@
 # xilinx
 
-##### Documentation \
+##### Documentation
 [Trenz Starter Kit 720](https://wiki.trenz-electronic.de/display/PD/Starter+Kit+720) \
 [Zynq-7000 SoC Technical Reference Manual](https://www.xilinx.com/support/documentation/user_guides/ug585-Zynq-7000-TRM.pdf#nameddest=xPSPLMIOEMIOSignalsAndInterfaces)\
 [AXI Stream FIFO](https://www.xilinx.com/support/documentation/ip_documentation/axi_fifo_mm_s/v4_1/pg080-axi-fifo-mm-s.pdf)\
 [ADS8681](http://www.ti.com/lit/ds/symlink/ads8681.pdf)
 
-##### Guides \
+##### Guides
 [Trenz TE0720 Test Board - Design Flow](https://wiki.trenz-electronic.de/display/PD/TE0720+Test+Board#TE0720TestBoard-DesignFlow) see steps 1,2,4,6\
 Open existing project
 ````
@@ -23,17 +23,17 @@ sudo bash vivado_open_existing_project_guimode.sh
 [UltraFast Embedded Design Methodology Guide](https://www.xilinx.com/support/documentation/sw_manuals/ug1046-ultrafast-design-methodology-guide.pdf):
 [Chapter 3: Hardware Design Considerations - Dataflow](https://www.xilinx.com/support/documentation/sw_manuals/ug1046-ultrafast-design-methodology-guide.pdf#G5.385115)
 
-###### Petalinux Guides (important: adding modules and apps)\
+###### Petalinux Guides (important: adding modules and apps)
 [Petalinux Reference Guide](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2018_1/ug1144-petalinux-tools-reference-guide.pdf)\
 [PetaLinux Tools Documentation](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2018_1/ug1157-petalinux-tools-command-line-guide.pdf)\
 for app building see files:
 ````
 ~/xilinx/bgw_current_probe_design/os/petalinux/usbtest.sh
 ````
-##### Source code\
+##### Source code
 [AXI Fifo Driver](https://github.com/torvalds/linux/blob/master/drivers/staging/axis-fifo/axis-fifo.c)
 
-##### Current probe project\
+##### Current probe project
 main test_board project
 ````
 /xilinx/bgw_current_probe_design
@@ -47,7 +47,7 @@ TE FSBL (for USB device)
 ~/xilinx/test_board_stream/test_board/os/petalinux/zynq_fsbl_te.elf
 ````
 
-##### usb device \
+##### usb device
 [TE7020 Schematic](https://www.trenz-electronic.de/fileadmin/docs/Trenz_Electronic/Modules_and_Module_Carriers/4x5/TE0720/REV03/Documents/SCH-TE0720-03-1CF.PDF)\
 [TE0703 Schematic](https://www.trenz-electronic.de/fileadmin/docs/Trenz_Electronic/Modules_and_Module_Carriers/4x5/4x5_Carriers/TE0703/REV05/Documents/SCH-TE0703-05.PDF)\
 [https://elinux.org/images/8/83/USB3320-datasheet.pdf](https://elinux.org/images/8/83/USB3320-datasheet.pdf)\
@@ -87,7 +87,7 @@ TE FSBL (for USB device)
     usb-phy = <&usb_phy0>;
 };
 ```
-##### Pinned links\
+##### Pinned links
 [Zynq-7000 SoC XADC](https://www.xilinx.com/support/documentation/user_guides/ug480_7Series_XADC.pdf)\
 [https://kb.ettus.com/X300/X310](https://kb.ettus.com/X300/X310)\
 ethernet: [1G/2.5G Ethernet PCS/PMA or SGMII v16.1 LogiCORE IP Product Guide](https://www.xilinx.com/support/documentation/ip_documentation/gig_ethernet_pcs_pma/v16_1/pg047-gig-eth-pcs-pma.pdf)\
@@ -96,13 +96,13 @@ emmmc: [Trenz guide](https://wiki.trenz-electronic.de/display/TE0720/eMMC)\
 [FTN IP jezgro za enkripciju podataka sa AXI interfejsom](http://www.ftn.uns.ac.rs/n144778477/ip-jezgro-za-enkripciju-podataka-sa-axi-interfejsom)\
 https://opsero.com/products/ 
 
-###### AXI\
+###### AXI
 [Introduction to AXI Protocol](https://www.aldec.com/en/company/blog/122--introduction-to-axi-protocol) \
 [AMBA® AXI Protocol Specification](http://mazsola.iit.uni-miskolc.hu/~drdani/docs_arm/AMBAaxi.pdf) \
 [Vivado Design Suite AXI Reference Guide](https://www.xilinx.com/support/documentation/ip_documentation/axi_ref_guide/latest/ug1037-vivado-axi-reference-guide.pdf) \
 [AXI4-Stream Infrastructure IP Suite v2.2 LogiCORE IP Product Guide](https://www.xilinx.com/support/documentation/ip_documentation/axis_infrastructure_ip_suite/v1_1/pg085-axi4stream-infrastructure.pdf)
 
-###### Industrial IO\
+###### Industrial IO
 https://01.org/linuxgraphics/gfx-docs/drm/driver-api/iio/index.html \
 https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad7887 \
 https://wiki.analog.com/resources/tools-software/linux-software/iio_oscilloscope \
@@ -111,11 +111,11 @@ https://github.com/analogdevicesinc/iio-oscilloscope \
 https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/iio/adc/ad7887.c?id=HEAD \
 https://wiki.analog.com/software/linux/docs/iio/iio-trig-bfin-timer
 
-###### axidma driver\
+###### axidma driver
 https://github.com/bperez77/xilinx_axidma/issues/24
 https://github.com/bperez77/xilinx_axidma
 
-###### udp\
+###### udp
 https://gist.github.com/cslarsen/11339448 \
 https://docs.python.org/2/howto/sockets.html \
 https://wiki.python.org/moin/UdpCommunication \
