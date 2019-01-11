@@ -66,9 +66,9 @@ TE FSBL (for USB device)
 2) Modify according to Trenz FSBL
 3) Complie and flash
 4) For linux drivers see [Zynq-7000 AP SoC USB CDC Device Class Design Example Techtip](http://www.wiki.xilinx.com/Zynq-7000+AP+SoC+USB+CDC+Device+Class+Design+Example+Techtip)
-5) Additional Peralinux device tree modification:
+5) Additional Peralinux device tree modification specific for trenz:
+````
 /* USB PHY */
-```
 /{
     usb_phy0: usb_phy@0 {
         //compatible = "ulpi-phy";
