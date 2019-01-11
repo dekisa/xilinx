@@ -46,7 +46,10 @@ TE FSBL (for USB device)
 ````
 ~/xilinx/test_board_stream/test_board/os/petalinux/zynq_fsbl_te.elf
 ````
-
+Petalinux installation dir
+````
+~/media/dekisa/extraStorage/petalinux/
+````
 ##### usb device
 [TE7020 Schematic](https://www.trenz-electronic.de/fileadmin/docs/Trenz_Electronic/Modules_and_Module_Carriers/4x5/TE0720/REV03/Documents/SCH-TE0720-03-1CF.PDF)\
 [TE0703 Schematic](https://www.trenz-electronic.de/fileadmin/docs/Trenz_Electronic/Modules_and_Module_Carriers/4x5/4x5_Carriers/TE0703/REV05/Documents/SCH-TE0703-05.PDF)\
