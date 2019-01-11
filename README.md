@@ -53,7 +53,7 @@ TE FSBL (for USB device)
 [https://elinux.org/images/8/83/USB3320-datasheet.pdf](https://elinux.org/images/8/83/USB3320-datasheet.pdf)\
 [Zynq-7000 AP SoC USB CDC Device Class Design Example Techtip](http://www.wiki.xilinx.com/Zynq-7000+AP+SoC+USB+CDC+Device+Class+Design+Example+Techtip)
 
-###### usb device sardware modifications:
+###### usb device hardware modifications (email from trenz):
 1) Remove USB type A J6
 2) Solder µUSB type B J12
 3) Remove CM choke L87 and solder it on L4
