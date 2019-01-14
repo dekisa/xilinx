@@ -9,6 +9,10 @@
 ##### Guides
 [test_board projekat](https://shop.trenz-electronic.de/Download/?path=Trenz_Electronic/Modules_and_Module_Carriers/4x5/TE0720/Reference_Design/2018.2/test_board)\
 [Trenz TE0720 Test Board - Design Flow](https://wiki.trenz-electronic.de/display/PD/TE0720+Test+Board#TE0720TestBoard-DesignFlow) see steps 1,2,4,6\
+Step 4, design_basic_settings.cmd :
+````
+export PARTNUMBER=te0720-03-1cfa
+````
 Open existing project (sudo is required)
 ````
 sudo bash vivado_open_existing_project_guimode.sh 
