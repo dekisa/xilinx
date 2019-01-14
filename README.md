@@ -7,6 +7,7 @@
 [ADS8681](http://www.ti.com/lit/ds/symlink/ads8681.pdf)
 
 ##### Guides
+[test_board projekat](https://shop.trenz-electronic.de/Download/?path=Trenz_Electronic/Modules_and_Module_Carriers/4x5/TE0720/Reference_Design/2018.2/test_board)\
 [Trenz TE0720 Test Board - Design Flow](https://wiki.trenz-electronic.de/display/PD/TE0720+Test+Board#TE0720TestBoard-DesignFlow) see steps 1,2,4,6\
 Open existing project (sudo is required)
 ````
