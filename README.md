@@ -108,7 +108,11 @@ https://opsero.com/products/
 [Introduction to AXI Protocol](https://www.aldec.com/en/company/blog/122--introduction-to-axi-protocol) \
 [AMBA® AXI Protocol Specification](http://mazsola.iit.uni-miskolc.hu/~drdani/docs_arm/AMBAaxi.pdf) \
 [Vivado Design Suite AXI Reference Guide](https://www.xilinx.com/support/documentation/ip_documentation/axi_ref_guide/latest/ug1037-vivado-axi-reference-guide.pdf) \
-[AXI4-Stream Infrastructure IP Suite v2.2 LogiCORE IP Product Guide](https://www.xilinx.com/support/documentation/ip_documentation/axis_infrastructure_ip_suite/v1_1/pg085-axi4stream-infrastructure.pdf)
+[AXI4-Stream Infrastructure IP Suite v2.2 LogiCORE IP Product Guide](https://www.xilinx.com/support/documentation/ip_documentation/axis_infrastructure_ip_suite/v1_1/pg085-axi4stream-infrastructure.pdf)\
+[AXI Reference guide](https://www.xilinx.com/support/documentation/ip_documentation/ug761_axi_reference_guide.pdf)
+
+###### AXI dma
+[1](https://www.xilinx.com/support/answers/57561.html)[2](https://www.xilinx.com/support/answers/57562.html)[3](https://www.xilinx.com/support/answers/58080.html)[4](https://www.xilinx.com/support/answers/58582.html)
 
 ###### Industrial IO
 https://01.org/linuxgraphics/gfx-docs/drm/driver-api/iio/index.html \
@@ -128,6 +132,9 @@ https://gist.github.com/cslarsen/11339448 \
 https://docs.python.org/2/howto/sockets.html \
 https://wiki.python.org/moin/UdpCommunication \
 https://www.cs.cmu.edu/afs/cs/academic/class/15213-f99/www/class26/udpclient.c \
+ 
+###### io and clocking
+[Vivado Design Hub - I/O and Clock Planning](https://www.xilinx.com/support/documentation-navigation/design-hubs/dh0007-vivado-pin-planning-hub.html)
 
 # Pinout - Clock capable pins
 [Pin labels](https://www.xilinx.com/support/packagefiles/z7packages/xc7z020clg484pkg.txt) - P pins\
