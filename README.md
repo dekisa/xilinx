@@ -1,5 +1,7 @@
 # xilinx
 
+Vivado 2018.2\
+Petalinux 2018.2
 ##### Documentation
 [Trenz Starter Kit 720](https://wiki.trenz-electronic.de/display/PD/Starter+Kit+720) \
 [Zynq-7000 SoC Technical Reference Manual](https://www.xilinx.com/support/documentation/user_guides/ug585-Zynq-7000-TRM.pdf#nameddest=xPSPLMIOEMIOSignalsAndInterfaces)\
@@ -74,7 +76,8 @@ Petalinux installation dir
 2) Modify according to Trenz FSBL
 3) Complie and flash
 4) For linux drivers see [Zynq-7000 AP SoC USB CDC Device Class Design Example Techtip](http://www.wiki.xilinx.com/Zynq-7000+AP+SoC+USB+CDC+Device+Class+Design+Example+Techtip)
-5) Additional Peralinux device tree modification specific for trenz:
+5) Additional 
+linux device tree modification specific for trenz:
 ````
 /* USB PHY */
 /{
