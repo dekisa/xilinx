@@ -75,7 +75,14 @@ Petalinux installation dir
 1) Create first stage bootloader project from template in EDS
 2) Modify according to Trenz FSBL
 3) Complie and flash
-4) For linux drivers see [Zynq-7000 AP SoC USB CDC Device Class Design Example Techtip](http://www.wiki.xilinx.com/Zynq-7000+AP+SoC+USB+CDC+Device+Class+Design+Example+Techtip)
+4) Configure linux kernel as follows (source: [Zynq-7000 AP SoC USB CDC Device Class Design Example Techtip](http://www.wiki.xilinx.com/Zynq-7000+AP+SoC+USB+CDC+Device+Class+Design+Example+Techtip))
+````
+Device Drivers --->
+	USB support --->
+		USB Gadget Support --->
+			<*>		Abstract Control Model (CDC ACM)
+			<M>		Serial Gadget (with CDC ACM and CDC OBEX support)
+````
 5) Additional 
 linux device tree modification specific for trenz:
 ````
